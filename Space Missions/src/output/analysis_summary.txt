@@ -1,0 +1,36 @@
+Space Missions Analysis Summary
+Total Launches: 4324
+Unique Years: 64
+Launches Per Year:
+year
+1957.0      3
+1958.0     22
+1959.0     20
+1960.0     38
+1961.0     52
+         ... 
+2016.0     88
+2017.0     90
+2018.0    117
+2019.0    107
+2020.0     63
+Length: 64, dtype: int64
+Average Cost Per Year:
+year
+1957.0          NaN
+1958.0          NaN
+1959.0          NaN
+1960.0          NaN
+1961.0          NaN
+            ...    
+2016.0    79.457344
+2017.0    69.491061
+2018.0    64.749773
+2019.0    59.609726
+2020.0    56.650192
+Name: Price, Length: 64, dtype: float64
+Notes:
+- Data includes space missions from the loaded dataset.
+- Launches per year provide a historical trend of space missions.
+- Average cost per year calculated in USD (converted from the 'Price' column).
+- Any missing or invalid values were handled during data cleaning.
